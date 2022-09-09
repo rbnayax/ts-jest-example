@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "experimentalDecorators": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "target": "ESNext",
+    "declaration": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "lib": [
+      "ES2021",
+      "DOM"
+    ]
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+  ]
+}
