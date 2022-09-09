@@ -2,7 +2,7 @@
 dist
 node_modules
 package-lock.json
-
+!ts-jest.log
 # Yarn 2
 .yarn/*
 !.yarn/patches

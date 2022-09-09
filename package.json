@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node --experimental-vm-modules $(yarn bin jest)"
+    "test": "TS_JEST_LOG=ts-jest.log node --experimental-vm-modules $(yarn bin jest)"
   },
   "dependencies": {
     "colorette": "^2.0.19"
